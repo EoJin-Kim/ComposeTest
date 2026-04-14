@@ -35,5 +35,6 @@ class RouterViewModel @Inject constructor(
 
     fun back() {
         viewModelScope.launch { navigator.back() }
+
     }
 }
